@@ -1,0 +1,10 @@
+header {
+  height: 100px;
+}
+
+.blog-logo {
+  padding: 5px 20px;
+  border-radius: 20px;
+  align-content: center;
+  color: var(--primary-color);
+}

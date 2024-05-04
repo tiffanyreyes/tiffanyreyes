@@ -1,0 +1,25 @@
+
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+
+$portfolio-v2-primary: mat.define-palette(mat.$pink-palette, 200);
+$portfolio-v2-accent: mat.define-palette(mat.$orange-palette, 200, 100, 400);
+
+
+$portfolio-v2-warn: mat.define-palette(mat.$teal-palette);
+
+$portfolio-v2-theme: mat.define-light-theme((
+  color: (
+    primary: $portfolio-v2-primary,
+    accent: $portfolio-v2-accent,
+    warn: $portfolio-v2-warn,
+  ),
+  typography: mat.define-typography-config(),
+  density: 0
+));
+
+
+@include mat.all-component-themes($portfolio-v2-theme);
+
