@@ -5,4 +5,16 @@
 
 .text-banner {
   text-align: center;
+  color: #EF6C00;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  color: #EF6C00;
+  width: 20%;
 }

@@ -4,4 +4,16 @@
 @import 'bootstrap/dist/css/bootstrap-utilities.min.css';
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Poppins, "Montserrat", sans-serif; }
+
+
+.main-container {
+  /* background-color: #EF6C00; */
+  width: auto;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: #F06292;
+}
+.section-header { font-size: 48px;}
+
