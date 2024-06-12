@@ -1,1 +1,101 @@
-<p>resume works!</p>
+<mat-card>
+  <mat-card-content>
+    <div class="main-container">
+      <h1 class="section-header">Resume</h1>
+      <h3>An exploration of my professional career.</h3>
+      <h3>Download my resume below and see if I am a good fit for your company.</h3>
+      <br>
+      <a href="assets/Tiffany-Reyes-2024.pdf" mat-raised-button class="accent-button" target="_blank">Resume</a>
+    </div>
+    <h2 class="resume-label">Work Experience</h2>
+    <mat-accordion class="project-tab">
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Ticket & Processing Coordinator
+          </mat-panel-title>
+          <mat-panel-description>
+            EBG Solutions (Orlando, FL) | Feb. 2024 - Present
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+          <p>• Troubleshoot backend technical issues and API failures for clients to reach a resolve in a timely manner.</p>
+          <p>• Respond to call center agent inquiries and educate them of how to use software systems.</p>
+          <p>• Lead in ticket creation for highly escalated issues and delegate them to the proper channels to be
+          addressed while keeping clients up to date on their issues.</p>
+          <p>• Collaboratively work with team to complete issue inquiries within JIRA and meet goals of 80 tickets a day.</p>
+        </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Ticket Specialist
+          </mat-panel-title>
+          <mat-panel-description>
+            Walt Disney World (Orlando, FL) | Jan. 2022 - Feb. 2024
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>• Assisted guests, cast members, and retirees by providing comprehensive information about park tickets
+          and policies using a variety of internal software applications.</p>
+        <p>• Led in providing unique solutions and guest recovery to ticket escalations or account errors while
+          maintaining positive relationships with clients and cast members.</p>
+        <p>• Documented unique troubleshooting cases in shared company knowledge base for expedited resolutions
+          as well as creating documentation for cast members’ onboarding process.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Disney College Program: Merchandise/Food & Beverage
+          </mat-panel-title>
+          <mat-panel-description>
+            Walt Disney World (Orlando, FL) | Jul. 2021 - Jan. 2022
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>• Facilitated event set-up and merchandise distribution of after-hour events for thousands of guests while
+          staying up to date on park information for guest inquiries in high-volume locations.</p>
+        <p>• Utilized problem solving skills through guest recovery and special accommodations to ensure guests’
+          individual needs are met with proper brand voice and efficiency.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Rental Operations Representative
+          </mat-panel-title>
+          <mat-panel-description>
+            Wyndham Destinations (Orlando, FL) | Feb. 2021 - Aug. 2021
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>• Coordinated clients’ demand and business needs of over 150 rental listings daily across all properties.</p>
+        <p>• Organized a successful reintroduction of World Mark rental properties post global pandemic through the
+          presentation of property portfolio benefits and projection metrics to stakeholders.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Marketing Assistant
+          </mat-panel-title>
+          <mat-panel-description>
+            UCF Alumni Center (Orlando, FL) | June 2018 - Dec. 2019
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p>• Independently managed day to day messaging, engagement, and promotion for the UCF Alumni
+          Instagram audience while moderating posts and scheduling content releases.</p>
+        <p>• Created content and designed audience-oriented graphics that were shared across social media platforms
+          that boosted following by 30% within the first 6 months.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel (opened)="panelOpenState = true"
+                           (closed)="panelOpenState = false">
+      </mat-expansion-panel>
+    </mat-accordion>
+    <br>
+    <h2 class="resume-label">Education</h2>
+    <mat-list>
+      <mat-list-item>
+        <span matListItemTitle>Bachelor of Science in Web Development</span>
+        <span matListItemLine>Bellevue University (Bellevue, NE)</span>
+      </mat-list-item>
+      <mat-list-item>
+        <span matListItemTitle>Bachelor of Science in Business Administration, Marketing</span>
+        <span>University of Central Florida (Orlando, FL)</span>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

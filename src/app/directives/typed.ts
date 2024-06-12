@@ -103,7 +103,7 @@ export class Typed {
 
       this.cursor = document.createElement(this.element.localName);
       this.cursor.className = 'typed-cursor'
-      this.cursor.style = 'display: inline-block;'
+      this.cursor.style = 'display: inline-block; font-size: 48px;'
       this.cursor.innerHTML = '|'
 
       this.element.parentNode && this.element.parentNode.insertBefore(this.cursor, this.element.nextSibling)

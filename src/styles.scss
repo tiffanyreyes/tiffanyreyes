@@ -17,3 +17,17 @@ body { margin: 0; font-family: Poppins, "Montserrat", sans-serif; }
 }
 .section-header { font-size: 48px;}
 
+.accent-button {
+  padding: .75em;
+  color: white;
+  background-color: #EF6C00;
+  text-decoration: none;
+}
+
+.accent-button:hover {
+  background-color: #FF9800;
+}
+
+.project-tab {
+  margin: 40px 0 0 40px;
+}
