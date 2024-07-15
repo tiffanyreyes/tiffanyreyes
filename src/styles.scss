@@ -13,15 +13,16 @@ body { margin: 0; font-family: Poppins, "Montserrat", sans-serif; }
   padding-top: 1.5em;
   padding-bottom: 2em;
   text-align: center;
-  color: #F06292;
+  color: #EF6C00;
 }
 .section-header { font-size: 48px;}
 
 .accent-button {
-  padding: .75em;
+  padding: 1em;
   color: white;
   background-color: #EF6C00;
   text-decoration: none;
+  border-radius: 25px;
 }
 
 .accent-button:hover {

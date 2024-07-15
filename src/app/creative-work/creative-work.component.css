@@ -3,10 +3,13 @@
   /* min-height: 674px; */
   background-color: #F48FB1;
   color: white;
+  padding-bottom: 5px;
 }
 
 .creatives {
   margin: 40px 0 0 40px;
 }
 
-
+h2 {
+  font-weight: 500;
+}

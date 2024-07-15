@@ -17,4 +17,22 @@ img {
 hr {
   color: #EF6C00;
   width: 20%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
+
+.intro {
+  color: black;
+  align-items: center;
+  margin: 20px 50px 30px;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 300;
+
+}
+
